@@ -1,6 +1,6 @@
 const { connect } = require("mongoose");
-const {productModel} = require("../products.model");
-const products = require("../products.json");
+const { productModel } = require("./models/products.model");
+const products = require("../../exports/products.json");
 
 const cfg = {
   useNewUrlParser: true,
